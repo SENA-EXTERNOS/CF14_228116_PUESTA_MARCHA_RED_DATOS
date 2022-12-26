@@ -1,9 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo: 'Puesta en marcha de la red de datos.',
+    descripcionCurso:
+      'En este componente formativo identificará las consideraciones de diseño e implementación para realizar una instalación, para esto se debe tener en cuenta la normativa con el fin de no correr el riesgo de ser sancionados por realizar instalaciones vencidas y posibles fallas técnicas. Adicionalmente, conocerá el diseño que será utilizado dentro de la infraestructura, cumpliendo con los estándares de calidad.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
