@@ -17,11 +17,12 @@
     p.mb-5(data-aos='fade-right') En este momento contamos con tres tipos de cableado: los genéricos, que son los cables comunes; los que se utilizan en tecnología de “fibra óptica” y “cobre” y los que aplican la clasificación del local (ya sea hogares o locales comerciales). 
     .row.justify-content-center.mb-5
       .col-lg-6.mb-lg-0.mb-3(data-aos="fade-right")
-        .cajon-b.color-primario.p-3.mb-5
-          p.mb-0  Aparte de los componentes para levantar la red, la normativa es fundamental, llevando a que se desarrollen proyectos resistentes y bien constituidos. 
-            br
-            br
-            |La primera norma que expondremos es la #[b ISO/IEC], la cual es utilizada por todos los gobiernos para tener control y usos reglamentarios; se adapta a cada región nacional y los grupos que más la utilizan son organismos de certificación, laboratorios de ensayo y usuarios, fabricantes y organizaciones comerciales.
+        .resaltado-100
+          .cajon-b.color-primario.p-3.mb-5
+            p.mb-0  Aparte de los componentes para levantar la red, la normativa es fundamental, llevando a que se desarrollen proyectos resistentes y bien constituidos. 
+              br
+              br
+              |La primera norma que expondremos es la #[b ISO/IEC], la cual es utilizada por todos los gobiernos para tener control y usos reglamentarios; se adapta a cada región nacional y los grupos que más la utilizan son organismos de certificación, laboratorios de ensayo y usuarios, fabricantes y organizaciones comerciales.
       .col-lg-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema1/2.png', alt='')
     p.mb-5(data-aos='fade-right') La norma ISO/IEC tiene en cuenta lo siguiente: 
     .row.justify-content-center.mb-5

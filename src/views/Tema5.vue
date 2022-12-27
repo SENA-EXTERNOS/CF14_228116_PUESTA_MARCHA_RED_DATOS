@@ -13,6 +13,7 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 Los parámetros de prueba utilizados en los sistemas para trenzado balanceado, cableado estructurado de cobre y pruebas de campo del cableado instalado, han sido definidos en las normas de la industria ISO/IEC 11801:2010 2ª Ed, y ANSI/TIA-568-C.2 
           br
+          br
           |Adicionalmente, se tienen en cuenta los requisitos de pruebas de desempeño para los Modelos de Enlace Permanente o Canal clase D, E y F/categoría 5e, 6, 6A y 7, incluyendo los siguientes parámetros especificados: 
     .row.justify-content-center.mb-5
       .col-lg-11
