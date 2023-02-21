@@ -69,13 +69,6 @@ export default {
         titulo: 'Equipos certificadores y resultados de prueba        ',
         desarrolloContenidos: true,
       },
-      {
-        nombreRuta: 'tema7',
-        icono: 'far fa-file-alt',
-        numero: '7',
-        titulo: 'Gestión de garantías ',
-        desarrolloContenidos: true,
-      },
     ],
     subMenu: [
       {
@@ -165,7 +158,7 @@ export default {
     {
       termino: 'Estándar',
       significado:
-        'tiene su origen etimológico en el vocablo inglés standard. El concepto se utiliza para nombrar aquello que puede tomarse como referencia, patrón o modelo.      ',
+        'tiene su origen etimológico en el vocablo inglés standard. El concepto se utiliza para nombrar aquello que puede tomarse como referencia, patrón o modelo.   ',
     },
     {
       termino: '<em>Hardware</em>',
@@ -190,7 +183,7 @@ export default {
     {
       termino: '<em>Software</em>',
       significado:
-        'se conoce como software, logicial o soporte lógico al sistema formal de un sistema informático, que comprende el conjunto de los componentes lógicos necesarios que hace posible la realización de tareas específicas, en contraposición a los componentes físicos que son llamados hardware.',
+        'se conoce como <em>software</em>, ​ logicial o soporte lógico al sistema formal de un sistema informático, que comprende el conjunto de los componentes lógicos necesarios que hace posible la realización de tareas específicas, en contraposición a los componentes físicos que son llamados hardware.',
     },
     {
       termino: 'Tecnología',

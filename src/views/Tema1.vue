@@ -6,15 +6,15 @@
       .titulo-principal__numero
         span 1
       h1 Estándares de instalación de redes, norma ISO / IEC, norma IEEE, norma ANSI/TIA/EIA
-    p.mb-5(data-aos='fade-right') Hasta 1985, no se generaban instalaciones basadas en estándares de calidad, por ejemplo para realizar los cableados de los sistemas de comunicaciones en el ámbito empresarial. Identificar los tipos de sistemas para esa fecha requería de ciertas características de cableado en el que se utilizara el transporte de la información. 
+    p.mb-5(data-aos='fade-right') Hasta 1985, no se generaban instalaciones basadas en estándares de calidad, por ejemplo, para realizar los cableados de los sistemas de comunicaciones en el ámbito empresarial. Identificar los tipos de sistemas para esa fecha requería de ciertas características de cableado en el que se utilizaba el transporte de la información.
     //TODO! REQUIERE AJUSTE 
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image':`url(${require('@/assets/curso/temas/tema1/1.jpg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Todos estos sistemas requerían mainframes con terminales y cables con características especiales que variaban dependiendo de la marca de los equipos que se utilizaban para la época. Con el paso del tiempo, el uso de las tecnologías comenzó a ser masivo para todos los sistemas de información, especialmente para las organizaciones públicas y privadas, partiendo de que se volvió necesario tener instalaciones de tipo, por ejemplo, par trenzado y coaxial para la instalaciones de red de computadoras, ya fuera también para circuito cerrado de vigilancia por TV. Cada vez que llegaba una nueva tecnología, era indispensable cambiar el cableado también. 
-    p.mb-5(data-aos='fade-right') En este momento contamos con tres tipos de cableado: los genéricos, que son los cables comunes; los que se utilizan en tecnología de “fibra óptica” y “cobre” y los que aplican la clasificación del local (ya sea hogares o locales comerciales). 
+        p.mb-0 Todos estos sistemas requerían #[em mainframes] con terminales y cables con características especiales que variaban dependiendo de la marca y de los equipos que se utilizaban para la época. Con el paso del tiempo, el uso de las tecnologías comenzó a ser masivo para todos los sistemas de información, especialmente para las organizaciones públicas y privadas, partiendo de que se volvió necesario tener instalaciones de tipo, por ejemplo, par trenzado y coaxial para las instalaciones de red de computadoras, así fuera también para circuito cerrado de vigilancia por TV. Cada vez que llegaba una nueva tecnología, era indispensable cambiar el cableado.
+    p.mb-5(data-aos='fade-right') En este momento se cuenta con tres tipos de cableado: los genéricos, que son los cables comunes; los que se utilizan en tecnología de “fibra óptica” y “cobre” y los que aplican la clasificación del local (ya sea en hogares o en locales comerciales). 
     .row.justify-content-center.mb-5
       .col-lg-6.mb-lg-0.mb-3(data-aos="fade-right")
         .resaltado-100
@@ -22,7 +22,7 @@
             p.mb-0  Aparte de los componentes para levantar la red, la normativa es fundamental, llevando a que se desarrollen proyectos resistentes y bien constituidos. 
               br
               br
-              |La primera norma que expondremos es la #[b ISO/IEC], la cual es utilizada por todos los gobiernos para tener control y usos reglamentarios; se adapta a cada región nacional y los grupos que más la utilizan son organismos de certificación, laboratorios de ensayo y usuarios, fabricantes y organizaciones comerciales.
+              |La primera norma es la ISO/IEC, la cual es utilizada por todos los gobiernos para tener control y usos reglamentarios; se adapta a cada región nacional y los grupos que más la utilizan son organismos de certificación, laboratorios de ensayo y usuarios, fabricantes y organizaciones comerciales.
       .col-lg-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema1/2.png', alt='')
     p.mb-5(data-aos='fade-right') La norma ISO/IEC tiene en cuenta lo siguiente: 
     .row.justify-content-center.mb-5
@@ -45,14 +45,14 @@
           .tarjeta.p-4(titulo="Servicios" style="background-color: #DBEDFD")
             p.mb-0 “Cuando se proporcionan servicios, los proveedores tienen que satisfacer las necesidades de sus clientes. ISO e IEC proporcionan normas que definen un nivel de servicios y/o el procedimiento para prestar el servicio (por ej.: ISO 24510 Actividades de servicio relacionadas con agua potable y el saneamiento. Directrices para la evaluación y la mejora del servicio a los usuarios).” (s/b)
           .tarjeta.p-4(titulo="Personal" style="background-color: #DBEDFD")
-            p.mb-0 “Estas normas se ocupan de profesiones y oficios específicos que exigen personas con competencias de orden normativo e informativo. Incluyen las cualificaciones que se requieren, experiencia profesional y niveles de competencia técnica  (por ej.: ISO 22222 Planificación financiera personal. Requisitos para los asesores financieros).”
+            p.mb-0 “Estas normas se ocupan de profesiones y oficios específicos que exigen personas con competencias de orden normativo e informativo. Incluyen las cualificaciones que se requieren, experiencia profesional y niveles de competencia técnica (por ej.: ISO 22222 Planificación financiera personal. Requisitos para los asesores financieros).”
           .tarjeta.p-4(titulo="Evaluación de la conformidad" style="background-color: #DBEDFD")
             p.mb-0 “Estas normas y guías contienen requisitos para los organismos encargados de la evaluación de la conformidad y las actividades correspondientes, incluyendo las declaraciones de conformidad de los proveedores, la inspección, la certificación, la acreditación, la evaluación entre pares y el reconocimiento mutuo.” (s/b)
       .col-lg-4.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/tema1/4.png', alt='')
-    p.mb-5(data-aos='fade-right') La segunda norma que detallaremos será la IEEE, la cual significa #[em Institute of Electrical of Engineers.] Dicho instituto es el lugar en donde se desarrollan todos los estándares de las redes de datos. En esos lineamientos se describe la función que cumple cada norma para utilizar en el tramo de la instalación, ya sea en una compañía u hogar.
+    p.mb-5(data-aos='fade-right') La segunda norma es la IEEE, la cual significa Institute of Electrical of Engineers. Dicho instituto es el lugar donde se desarrollan todos los estándares de las redes de datos. En esos lineamientos se describen las funciones que cumplen cada norma para utilizar en el tramo de la instalación, ya sea en una compañía u hogar.
       br
       br
-      |A continuación, se describen todas las normas IEEE que existen y que actualmente presentan novedades de su respectivo uso.
+      |A continuación, se describen todas las normas IEEE que existen y que actualmente presentan novedades de su respectivo uso:
     .row.justify-content-center.mb-5
       .col-lg-4.mb-lg-0.mb-3.col-8(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/3.svg', alt='')
       .col-lg-8(data-aos="fade-left")

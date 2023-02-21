@@ -16,58 +16,15 @@
     p.mb-5(data-aos='fade-right') Las normas ANSI/EIA/TIA más conocidas y usadas hasta el momento son:
     .acordion-ajuste
       AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul-oscuro")
-        .row(titulo="").justify-content-center
+        .row(titulo="ANSI/EIA/TIA-568B").justify-content-center
           .col-lg-5 
             p Estándar de cableado para telecomunicaciones en edificios comerciales. Establece los requisitos de los elementos de la red y los medios empleados para la transmisión. Es una norma definida para los EE. UU. pero, en la práctica, se ha asumido a nivel mundial.” (2017, enero 20)
               br
               br
-              |De acuerdo con el estándar ANSI/EIA/TIA-568A, cuando se utiliza el conector RJ-45 macho debe llevar un orden específico, tal y cómo se muestra en la imagen. 
-          .col-lg-5
-            .tabla-editada
-              table
-                thead
-                  tr
-                    th Pin #
-                    th Par #
-                    th Color
-                tbody
-                  tr
-                    td 1
-                    td 3
-                    td Blanco verde
-
-                  tr
-                    td 2
-                    td 3
-                    td Verde
-                  tr
-                    td 3
-                    td 2
-                    td Banco naranja
-
-                  tr
-                    td 4
-                    td 1
-                    td Azul
-                  tr
-                    td 5
-                    td 1
-                    td Blanco azul
-                  tr
-                    td 6
-                    td 2
-                    td Naranja
-                  tr
-                    td 7
-                    td 4
-                    td Blanco marrón
-                  tr
-                    td 8
-                    td 4
-                    td Marrón
-        .row(titulo="ANSI/EIA/TIA-568B").justify-content-center
-          .col-lg-5 
-            p Según el estándar ANSI/EIA/TIA-568B, para engastar un cable en el conector macho RJ-45 es como se indica en la imagen.
+              |De acuerdo con el estándar ANSI/EIA/TIA-568A, cuando se utiliza el conector RJ-45 macho debe llevar un orden específico, tal y como se muestra en la imagen.
+              br
+              br
+              |Según el estándar ANSI/EIA/TIA-568B, para engastar un cable en el conector macho RJ-45 es como se indica en la imagen.
           .col-lg-5
             .tabla-editada
               table
@@ -115,7 +72,8 @@
           .col-lg-3
             p “La ANSI/TIA/EIA-942 determina el estándar de infraestructura de telecomunicaciones para centros de datos. Define las características de un centro de datos como un edificio o una parte de edificio dedicados a alojar salas de telecomunicaciones y de equipos de gran envergadura.” (2017, enero 20)
               br
-              |Dentro de las características más utilizadas para el diseño de estructuras se describen en las que se encuentran en la siguiente imagen:
+              br
+              |Dentro de las características más utilizadas para el diseño de estructuras se describen en la siguiente imagen:
           .col-lg-7
             .tabla-editada
               table

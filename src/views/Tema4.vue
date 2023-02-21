@@ -127,11 +127,11 @@
               .d-flex.justify-content-end
                 p.fw-bold Febrero de 2009 
             div(titulo="ANSI/TIA/EIA 568-C.0  ")
-              p.mb-0 #[em Corrección.  ]
+              p.mb-0 #[em Corrección. ]
               .d-flex.justify-content-end
                 p.fw-bold Septiembre de 2010 
             div(titulo="ANSI/TIA/EIA 568-C.0  ")
-              p.mb-0 #[em Corrección.  ]
+              p.mb-0 #[em Corrección. ]
               .d-flex.justify-content-end
                 p.fw-bold Agosto de 2012 
             div(titulo="ANSI/TIA/EIA 568-C.1 ")
@@ -171,25 +171,26 @@
               .d-flex.justify-content-end
                 p.fw-bold Julio de 2011 
       .col-lg-4.col-8.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/tema4/2.png', alt='')
+    p.mb-5(data-aos='fade-right') Para solicitar el proceso de certificación de una red, se deben seguir los siguientes pasos: 
     .row.justify-content-center.mb-5
       .col-lg-8.mb-lg-0.mb-3(data-aos="fade-right")
         TabsA.color-acento-contenido.mb-5
           .tarjeta.p-4(titulo="Paso 1" style="background-color: #DBEDFD")
-            p.mb-0 Contactar la entidad que se encargara de iniciar el proceso de certificación para saber que certificación necesita.
+            p.mb-0 Contactar la entidad que se encargará de iniciar el proceso de certificación.
           .tarjeta.p-4(titulo="Paso 2 " style="background-color: #DBEDFD")
-            p.mb-0 Recibe la propuesta, donde especifican los costos y el tiempo estimado para la auditoria formal 
+            p.mb-0 Recibe la propuesta, donde especifican los costos y el tiempo estimado para la auditoría formal.
           .tarjeta.p-4(titulo="Paso 3" style="background-color: #DBEDFD")
-            p.mb-0 Conocer el equipo de auditoría, la empresa que realizará la certificación le presentará quién será el auditor
+            p.mb-0 Conocer el equipo de auditoría, la empresa que realizará la certificación presentará quién será el auditor.
           .tarjeta.p-4(titulo="Paso 4" style="background-color: #DBEDFD")
             p.mb-0 Capacitar, es importante realizar talleres o cursos que permita al personal de la empresa llegar al nivel y cumplir con la certificación
           .tarjeta.p-4(titulo="Paso 5" style="background-color: #DBEDFD")
             p.mb-0 Pre-auditoria, este ejercicio permite identificar todas las omisiones y falencias, con el fin de mejorarlas 
           .tarjeta.p-4(titulo="Paso 6" style="background-color: #DBEDFD")
-            p.mb-0 Evaluación, va muy relacionado con la norma que la empresa necesita la certificación
+            p.mb-0 Evaluación, va muy relacionado con la norma que la empresa necesita para la certificación.
           .tarjeta.p-4(titulo="Paso 7" style="background-color: #DBEDFD")
-            p.mb-0 Certificación, se emite unos certificados de registros y detallar el alcance de la certificación
+            p.mb-0 Certificación, se emiten unos certificados de registros, para detallar el alcance de la certificación.
           .tarjeta.p-4(titulo="Paso 8" style="background-color: #DBEDFD")
-            p.mb-0 Cumplimiento, el auditor encargado deberá efectuar las evaluaciones realizadas e indicar las futuras mejoras
+            p.mb-0 Cumplimiento, el auditor encargado deberá efectuar las evaluaciones realizadas e indicar las futuras mejoras.
           .tarjeta.p-4(titulo="Paso 9" style="background-color: #DBEDFD")
             p.mb-0 Es muy importante interpretar el estatus de la certificación, las razones por las que es aceptada, rechazada o disminuye el alcance de la certificación.
       .col-lg-4(data-aos="fade-left"): img(src='@/assets/curso/temas/tema4/3.png', alt='')
