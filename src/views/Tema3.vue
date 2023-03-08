@@ -16,7 +16,7 @@
     p.mb-5(data-aos='fade-right') Las normas ANSI/EIA/TIA más conocidas y usadas hasta el momento son:
     .acordion-ajuste
       AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul-oscuro")
-        .row(titulo="ANSI/EIA/TIA-568B").justify-content-center
+        .row(titulo="ANSI/EIA/TIA-568").justify-content-center
           .col-lg-5 
             p Estándar de cableado para telecomunicaciones en edificios comerciales. Establece los requisitos de los elementos de la red y los medios empleados para la transmisión. Es una norma definida para los EE. UU. pero, en la práctica, se ha asumido a nivel mundial.” (2017, enero 20)
               br

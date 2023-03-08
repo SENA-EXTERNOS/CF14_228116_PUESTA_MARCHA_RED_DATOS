@@ -158,7 +158,7 @@ export default {
     {
       termino: 'Estándar',
       significado:
-        'tiene su origen etimológico en el vocablo inglés standard. El concepto se utiliza para nombrar aquello que puede tomarse como referencia, patrón o modelo.   ',
+        'tiene su origen etimológico en el vocablo inglés <em>standard</em>. El concepto se utiliza para nombrar aquello que puede tomarse como referencia, patrón o modelo.   ',
     },
     {
       termino: '<em>Hardware</em>',
@@ -168,7 +168,7 @@ export default {
     {
       termino: 'Norma IEEE',
       significado:
-        'significa Institute of Electrical of Engineers y más conocido en redes de datos por sus siglas LMSC (LAN/MAN Standards Committee), en donde sus actividades se enfocan en desarrollar todos los estándares de las redes de datos.',
+        'significa <em>Institute of Electrical of Engineers</em> y más conocido en redes de datos por sus siglas LMSC (LAN/MAN <em>Standards Committee</em>), en donde sus actividades se enfocan en desarrollar todos los estándares de las redes de datos.',
     },
     {
       termino: 'Redes de datos',
@@ -183,7 +183,7 @@ export default {
     {
       termino: '<em>Software</em>',
       significado:
-        'se conoce como <em>software</em>, ​ logicial o soporte lógico al sistema formal de un sistema informático, que comprende el conjunto de los componentes lógicos necesarios que hace posible la realización de tareas específicas, en contraposición a los componentes físicos que son llamados hardware.',
+        'se conoce como <em>software</em>, ​ logicial o soporte lógico al sistema formal de un sistema informático, que comprende el conjunto de los componentes lógicos necesarios que hace posible la realización de tareas específicas, en contraposición a los componentes físicos que son llamados <em>hardware.</em>',
     },
     {
       termino: 'Tecnología',
@@ -193,7 +193,7 @@ export default {
     {
       termino: 'Terminales',
       significado:
-        'es un dispositivo de hardware, ya sea de naturaleza electromecánica o electrónica, que se puede usar tanto para ingresar como para transcribir información.      ',
+        'es un dispositivo de <em>hardware</em>, ya sea de naturaleza electromecánica o electrónica, que se puede usar tanto para ingresar como para transcribir información.      ',
     },
   ],
   referencias: [

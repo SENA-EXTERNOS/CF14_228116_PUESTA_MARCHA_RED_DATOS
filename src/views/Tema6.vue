@@ -6,6 +6,7 @@
       .titulo-principal__numero
         span 6
       h1 Equipos certificadores y resultados de prueba  
+    p.mb-5(data-aos='fade-right') En el siguiente video, se presenta la importancia de los equipos certificadores y los resultados de prueba: 
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)

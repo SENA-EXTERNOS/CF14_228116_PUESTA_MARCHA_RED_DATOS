@@ -28,28 +28,28 @@
     .row.justify-content-center.mb-5
       .col-lg-8.mb-lg-0.mb-3(data-aos="fade-right")
         TabsA.color-acento-contenido.mb-5
-          .tarjeta.p-4(titulo="Especificaciones de producto" style="background-color: #DBEDFD")
+          .tarjeta.p-4(titulo="Especificaciones <br>de producto" style="background-color: #DBEDFD")
             p.mb-0 “Estos documentos a menudo pueden abarcar todo y tratar varios requisitos de un producto específico, así como su aptitud para el uso y sus niveles de prestación. Las especificaciones de producto pueden tratar dimensiones, salud y seguridad, protección del medio ambiente, intercambiabilidad y tratamiento de datos.” (s/b)
-          .tarjeta.p-4(titulo=" Principios de salud y seguridad" style="background-color: #DBEDFD")
+          .tarjeta.p-4(titulo=" Principios de <br>salud y seguridad" style="background-color: #DBEDFD")
             p.mb-0 “Existen normas que proporcionan principios genéricos de seguridad, de protección y de diseño y evaluación ergonómica.” (s/b)
-          .tarjeta.p-4(titulo="Gestión de la organización" style="background-color: #DBEDFD")
+          .tarjeta.p-4(titulo="Gestión de <br>la organización" style="background-color: #DBEDFD")
             p.mb-0 “Hay una serie de normas ISO que proporcionan a las organizaciones orientación sobre temas de gestión, para ayudarles a implementar buenas prácticas y un sistema de gestión eficaz. Estas normas tratan aspectos clave como son la calidad, la seguridad y la gestión ambiental.” (s/b)
-          .tarjeta.p-4(titulo="Etiquetado y embalaje" style="background-color: #DBEDFD")
+          .tarjeta.p-4(titulo="Etiquetado <br>y embalaje" style="background-color: #DBEDFD")
             p.mb-0 “Numerosas normas tienen por objeto proporcionar información sobre los productos a través del etiquetado. Estas normas garantizan a los consumidores y usuarios del mundo entero información clara y fiable sobre las propiedades de los productos, tales como sus características dimensionales e impacto sobre el medio ambiente. Las normas para la seguridad del embalaje proporcionan información sobre las mejores prácticas relativas a algunos aspectos primordiales tales como embalajes a prueba de niños. Pueden, asimismo, mostrar métodos de buena práctica en áreas como reutilización o almacenamiento.” (s/b)
-          .tarjeta.p-4(titulo="Métodos de medición, ensayo y análisist" style="background-color: #DBEDFD")
+          .tarjeta.p-4(titulo="Métodos de <br>medición, ensayo <br>y análisist" style="background-color: #DBEDFD")
             p.mb-0 “Existen numerosas normas que especifican métodos de medición, de ensayo y análisis. Estas normas son importantes porque garantizan que los datos de medida y ensayo correspondientes serán comparables en todo el mundo.” (s/b)
           .tarjeta.p-4(titulo="Símbolos gráficos" style="background-color: #DBEDFD")
             p.mb-0 “En las normas ISO e IEC figura una gama exhaustiva de símbolos gráficos acordados internacionalmente (por ej.: ISO 7001:2007 Símbolos gráficos. Símbolos de información al público). El uso de símbolos ayuda a superar las barreras lingüísticas en campos como la seguridad vial o situaciones de emergencia.” (s/b)
-          .tarjeta.p-4(titulo="Terminología y definiciones" style="background-color: #DBEDFD")
+          .tarjeta.p-4(titulo="Terminología <br>y definiciones" style="background-color: #DBEDFD")
             p.mb-0 “Algunas normas se dedican exclusivamente a definiciones utilizadas para tratar los obstáculos técnicos al comercio y su eliminación. Normalizan términos y definiciones para facilitar el entendimiento mutuo en diferentes campos.” (s/b)
           .tarjeta.p-4(titulo="Servicios" style="background-color: #DBEDFD")
             p.mb-0 “Cuando se proporcionan servicios, los proveedores tienen que satisfacer las necesidades de sus clientes. ISO e IEC proporcionan normas que definen un nivel de servicios y/o el procedimiento para prestar el servicio (por ej.: ISO 24510 Actividades de servicio relacionadas con agua potable y el saneamiento. Directrices para la evaluación y la mejora del servicio a los usuarios).” (s/b)
           .tarjeta.p-4(titulo="Personal" style="background-color: #DBEDFD")
             p.mb-0 “Estas normas se ocupan de profesiones y oficios específicos que exigen personas con competencias de orden normativo e informativo. Incluyen las cualificaciones que se requieren, experiencia profesional y niveles de competencia técnica (por ej.: ISO 22222 Planificación financiera personal. Requisitos para los asesores financieros).”
-          .tarjeta.p-4(titulo="Evaluación de la conformidad" style="background-color: #DBEDFD")
+          .tarjeta.p-4(titulo="Evaluación de <br>la conformidad" style="background-color: #DBEDFD")
             p.mb-0 “Estas normas y guías contienen requisitos para los organismos encargados de la evaluación de la conformidad y las actividades correspondientes, incluyendo las declaraciones de conformidad de los proveedores, la inspección, la certificación, la acreditación, la evaluación entre pares y el reconocimiento mutuo.” (s/b)
       .col-lg-4.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/tema1/4.png', alt='')
-    p.mb-5(data-aos='fade-right') La segunda norma es la IEEE, la cual significa Institute of Electrical of Engineers. Dicho instituto es el lugar donde se desarrollan todos los estándares de las redes de datos. En esos lineamientos se describen las funciones que cumplen cada norma para utilizar en el tramo de la instalación, ya sea en una compañía u hogar.
+    p.mb-5(data-aos='fade-right') La segunda norma es la IEEE, la cual significa #[em Institute of Electrical of Engineers.] Dicho instituto es el lugar donde se desarrollan todos los estándares de las redes de datos. En esos lineamientos se describen las funciones que cumplen cada norma para utilizar en el tramo de la instalación, ya sea en una compañía u hogar.
       br
       br
       |A continuación, se describen todas las normas IEEE que existen y que actualmente presentan novedades de su respectivo uso:
