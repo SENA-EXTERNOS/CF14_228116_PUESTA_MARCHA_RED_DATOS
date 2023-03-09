@@ -25,9 +25,10 @@
               |La primera norma es la ISO/IEC, la cual es utilizada por todos los gobiernos para tener control y usos reglamentarios; se adapta a cada región nacional y los grupos que más la utilizan son organismos de certificación, laboratorios de ensayo y usuarios, fabricantes y organizaciones comerciales.
       .col-lg-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema1/2.png', alt='')
     p.mb-5(data-aos='fade-right') La norma ISO/IEC tiene en cuenta lo siguiente: 
+
     .row.justify-content-center.mb-5
-      .col-lg-8.mb-lg-0.mb-3(data-aos="fade-right")
-        TabsA.color-acento-contenido.mb-5
+      .col-lg-9.mb-lg-0.mb-3(data-aos="fade-right")
+        TabsA.color-acento-contenido
           .tarjeta.p-4(titulo="Especificaciones <br>de producto" style="background-color: #DBEDFD")
             p.mb-0 “Estos documentos a menudo pueden abarcar todo y tratar varios requisitos de un producto específico, así como su aptitud para el uso y sus niveles de prestación. Las especificaciones de producto pueden tratar dimensiones, salud y seguridad, protección del medio ambiente, intercambiabilidad y tratamiento de datos.” (s/b)
           .tarjeta.p-4(titulo=" Principios de <br>salud y seguridad" style="background-color: #DBEDFD")
@@ -48,10 +49,10 @@
             p.mb-0 “Estas normas se ocupan de profesiones y oficios específicos que exigen personas con competencias de orden normativo e informativo. Incluyen las cualificaciones que se requieren, experiencia profesional y niveles de competencia técnica (por ej.: ISO 22222 Planificación financiera personal. Requisitos para los asesores financieros).”
           .tarjeta.p-4(titulo="Evaluación de <br>la conformidad" style="background-color: #DBEDFD")
             p.mb-0 “Estas normas y guías contienen requisitos para los organismos encargados de la evaluación de la conformidad y las actividades correspondientes, incluyendo las declaraciones de conformidad de los proveedores, la inspección, la certificación, la acreditación, la evaluación entre pares y el reconocimiento mutuo.” (s/b)
-      .col-lg-4.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/tema1/4.png', alt='')
+      .col-lg-3.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/tema1/4.png', alt='')
+    
     p.mb-5(data-aos='fade-right') La segunda norma es la IEEE, la cual significa #[em Institute of Electrical of Engineers.] Dicho instituto es el lugar donde se desarrollan todos los estándares de las redes de datos. En esos lineamientos se describen las funciones que cumplen cada norma para utilizar en el tramo de la instalación, ya sea en una compañía u hogar.
-      br
-      br
+
       |A continuación, se describen todas las normas IEEE que existen y que actualmente presentan novedades de su respectivo uso:
     .row.justify-content-center.mb-5
       .col-lg-4.mb-lg-0.mb-3.col-8(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/3.svg', alt='')
