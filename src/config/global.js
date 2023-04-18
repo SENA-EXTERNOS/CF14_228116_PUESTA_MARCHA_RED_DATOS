@@ -112,7 +112,7 @@ export default {
   },
   complementario: [
     {
-      tema: 'ESTÁNDARES Y NUEVOS COMPONENTES DEL CABLEADO ESTRUCTURADO      ',
+      tema: 'Estándares y nuevos componentes del cableado estructurado',
       referencia:
         'Meneses, E. (2014). Estándares y nuevos componentes del cableado estructurado. [Trabajo de grado de Ingeniería de Sistemas, Universidad Autónoma de Bucaramanga, Colombia]      ',
       tipo: 'Artículo      ',
@@ -129,7 +129,7 @@ export default {
     },
     {
       tema:
-        'EL ABC DE LA CERTIFICACIÓN DEL CABLEADO ESTRUCTURADO PARA REDES DE DATOS      ',
+        'El abc de la certificación del cableado estructurado para redes de datos',
       referencia:
         'Normas sobre cableado Cayo Urrutia, A. (2020, octubre 21). EL ABC DE LA CERTIFICACIÓN DEL CABLEADO ESTRUCTURADO PARA REDES DE DATOS. ',
       tipo: 'Video      ',
@@ -137,9 +137,9 @@ export default {
         'http://repositorio.inictel-uni.edu.pe:8080/xmlui/handle/123456789/108      ',
     },
     {
-      tema: 'APRENDIENDO POR PROYECTOS EN ESCENARIOS PLURITECNOLÓGICOS',
+      tema: 'Aprendiendo por proyectos en escenarios pluritecnológicos',
       referencia:
-        'Robles, C. A. R. (2020). APRENDIENDO POR PROYECTOS EN ESCENARIOS PLURITECNOLÓGICOS. ',
+        'Robles, C. A. R. (2020). Aprendiendo por proyectos en escenarios pluritecnológicos. ',
       tipo: ' Artículo      ',
       link: 'https://acofipapers.org/index.php/eiei/article/view/728/733      ',
     },
