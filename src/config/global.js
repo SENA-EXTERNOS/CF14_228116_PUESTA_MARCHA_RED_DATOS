@@ -131,7 +131,7 @@ export default {
       tema:
         'El abc de la certificación del cableado estructurado para redes de datos',
       referencia:
-        'Normas sobre cableado Cayo Urrutia, A. (2020, octubre 21). EL ABC DE LA CERTIFICACIÓN DEL CABLEADO ESTRUCTURADO PARA REDES DE DATOS. ',
+        'Normas sobre cableado Cayo Urrutia, A. (2020, octubre 21). El abc de la certificación del cableado estructurado para redes de datos. ',
       tipo: 'Video      ',
       link:
         'http://repositorio.inictel-uni.edu.pe:8080/xmlui/handle/123456789/108      ',
