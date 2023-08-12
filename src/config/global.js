@@ -119,14 +119,14 @@ export default {
       link:
         'https://repository.unab.edu.co/bitstream/handle/20.500.12749/1284/2014_Tesis_Meneses_Chacon_Eduard_Andrey.pdf?sequence=1',
     },
-    {
-      tema: 'Cableado estructurado, un estado del arte      ',
-      referencia:
-        'Osorio, J. M. V. (diciembre de 2016). Cableado Estructurado: Un Estado del Arte. 5. https://doi.org/10.19136/jobs.a5n2.916      ',
-      tipo: 'Artículo',
-      link:
-        'file:///Users/mariaantonialopezrestrepo/Downloads/916-Texto%20del%20art%C3%ADculo-3289-1-10-20150601.pdf      ',
-    },
+    // {
+    //   tema: 'Cableado estructurado, un estado del arte      ',
+    //   referencia:
+    //     'Osorio, J. M. V. (diciembre de 2016). Cableado Estructurado: Un Estado del Arte. 5. https://doi.org/10.19136/jobs.a5n2.916      ',
+    //   tipo: 'Artículo',
+    //   link:
+    //     'file:///Users/mariaantonialopezrestrepo/Downloads/916-Texto%20del%20art%C3%ADculo-3289-1-10-20150601.pdf      ',
+    // },
     {
       tema:
         'El abc de la certificación del cableado estructurado para redes de datos',
@@ -229,11 +229,11 @@ export default {
       link:
         'https://nfcelectronica.com/sitio/company/certificacion-de-cableado.html',
     },
-    {
-      referencia: 'Redes de computadoras. (s/f). 5.2.1 Estándares vigentes. ',
-      link:
-        'https://sites.google.com/site/investigacionesitlm/5-diseno-e-implementacion-de-la-red-lan/5-2-1-estandares-vigentes       ',
-    },
+    // {
+    //   referencia: 'Redes de computadoras. (s/f). 5.2.1 Estándares vigentes. ',
+    //   link:
+    //     'https://sites.google.com/site/investigacionesitlm/5-diseno-e-implementacion-de-la-red-lan/5-2-1-estandares-vigentes       ',
+    // },
     {
       referencia:
         'Sena: Servicio Nacional de Aprendizaje. (s.f). Estándares IEEE.      ',
@@ -244,12 +244,12 @@ export default {
       link:
         'https://www.sutori.com/es/historia/estandar-ieee-802-11--8CkpVc7WCJZMSUno2tJwuUaq       ',
     },
-    {
-      referencia:
-        'Une.org. (s.f.). Uso y referencia a normas ISO e IEC en la reglamentación técnica.  ',
-      link:
-        'https://www.une.org/normalizacion_documentos/referencia_normas_iso_iec_reg_tecnica.pdf',
-    },
+    // {
+    //   referencia:
+    //     'Une.org. (s.f.). Uso y referencia a normas ISO e IEC en la reglamentación técnica.  ',
+    //   link:
+    //     'https://www.une.org/normalizacion_documentos/referencia_normas_iso_iec_reg_tecnica.pdf',
+    // },
   ],
   creditos: {
     liderEquipo: [
