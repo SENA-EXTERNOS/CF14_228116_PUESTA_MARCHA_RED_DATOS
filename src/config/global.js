@@ -131,10 +131,10 @@ export default {
       tema:
         'El abc de la certificación del cableado estructurado para redes de datos',
       referencia:
-        'Normas sobre cableado Cayo Urrutia, A. (2020, octubre 21). El abc de la certificación del cableado estructurado para redes de datos. ',
+        'Normas sobre cableado Sanchez, P. (2020, noviembre 15). <em>EL ABC DE LA CERTIFICACIÓN DEL CABLEADO ESTRUCTURADO PARA LAS REDES DE DATOS.</em>',
       tipo: 'Video      ',
       link:
-        'http://repositorio.inictel-uni.edu.pe:8080/xmlui/handle/123456789/108      ',
+        'https://www.youtube.com/watch?v=zzBLXQD9UrU&ab_channel=CAPACITAINICTEL-UNI',
     },
     {
       tema: 'Aprendiendo por proyectos en escenarios pluritecnológicos',
@@ -146,12 +146,12 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Cableado:',
+      termino: 'Cableado',
       significado:
         'el cableado estructurado consiste en cables de par trenzado protegidos o no protegidos en el interior de un edificio con el propósito de implantar una red de área local.      ',
     },
     {
-      termino: 'Conectividad:',
+      termino: 'Conectividad',
       significado:
         'es la capacidad de un dispositivo de conectarse y comunicarse con otro, con el fin de intercambiar información o establecer una conexión directa a base de información digital.      ',
     },
@@ -226,8 +226,7 @@ export default {
     {
       referencia:
         'Super User. (s/l). www.nfcelectronica.com - Certificación de Cableado. Nfcelectronica.com. Recuperado el 10 de noviembre de 2022, de ',
-      link:
-        'https://nfcelectronica.com/sitio/company/certificacion-de-cableado.html',
+      link: '',
     },
     // {
     //   referencia: 'Redes de computadoras. (s/f). 5.2.1 Estándares vigentes. ',
@@ -236,7 +235,7 @@ export default {
     // },
     {
       referencia:
-        'Sena: Servicio Nacional de Aprendizaje. (s.f). Estándares IEEE.      ',
+        'SENA: Servicio Nacional de Aprendizaje. (s.f). Estándares IEEE.      ',
       link: '',
     },
     {

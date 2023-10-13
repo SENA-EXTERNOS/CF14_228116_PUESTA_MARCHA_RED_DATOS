@@ -71,7 +71,7 @@
 
                 li
                   i.fas.fa-angle-right
-                  |RESISTENCIA DE BUCLE D.C.” (s/m) 
+                  p.mb-0 RESISTENCIA DE BUCLE D.C. #[em (s/m)] 
 
 </template>
 

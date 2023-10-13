@@ -18,7 +18,7 @@
       AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul-oscuro")
         .row(titulo="ANSI/EIA/TIA-568").justify-content-center
           .col-lg-5 
-            p Estándar de cableado para telecomunicaciones en edificios comerciales. Establece los requisitos de los elementos de la red y los medios empleados para la transmisión. Es una norma definida para los EE. UU. pero, en la práctica, se ha asumido a nivel mundial.” (2017, enero 20)
+            p “Estándar de cableado para telecomunicaciones en edificios comerciales. Establece los requisitos de los elementos de la red y los medios empleados para la transmisión. Es una norma definida para los EE. UU. pero, en la práctica, se ha asumido a nivel mundial.” (2017, enero 20)
               br
               br
               |De acuerdo con el estándar ANSI/EIA/TIA-568A, cuando se utiliza el conector RJ-45 macho debe llevar un orden específico, tal y como se muestra en la imagen.

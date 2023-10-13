@@ -62,64 +62,62 @@
             div(titulo="IEEE 802.1")
               p.mb-0 “Define la relación entre los estándares 802 del IEEE y el Modelo de Referencia para Interconexión de Sistemas Abiertos (OSI) de la ISO (Organización Internacional de Estándares). Por ejemplo, este comité definió direcciones para estaciones LAN de 48 bits para todos los estándares 802, de modo que cada adaptador puede tener una dirección única. Los vendedores de tarjetas de interfaz de red están registrados y los tres primeros bytes de la dirección son asignados por el IEEE. Cada vendedor es entonces responsable de crear una dirección única para cada uno de sus productos.” (s/c)
             div(titulo="802.1d")
-              p.mb-0 Es el estándar de IEEE para bridges MAC (puentes MAC), que incluye bridging (técnica de reenvío de paquetes que usan los switches), el protocolo spanning tree y el funcionamiento de redes 802.11, entre otros. También impide que los bucles se formen cuando los puentes o los interruptores están interconectados a través de varias rutas. El algoritmo BPDU logra mediante el intercambio de mensajes con otros switches para detectar bucles y, a continuación, elimina el bucle por el cierre de puente seleccionado interfaces. Este algoritmo garantiza que hay una y sólo una ruta activa entre dos dispositivos de red. (s/d)
+              p.mb-0 Es el estándar de IEEE para bridges MAC (puentes MAC), que incluye #[em bridging] (técnica de reenvío de paquetes que usan los #[em switches]), el protocolo #[em spanning tree] y el funcionamiento de redes 802.11, entre otros. También impide que los bucles se formen cuando los puentes o los interruptores están interconectados a través de varias rutas. El algoritmo BPDU logra mediante el intercambio de mensajes con otros #[em switches] para detectar bucles y, a continuación, elimina el bucle por el cierre de puente seleccionado interfaces. Este algoritmo garantiza que hay una y sólo una ruta activa entre dos dispositivos de red. (s/d)
             div(titulo="802.1p")
               p.mb-0 Asignación de prioridades de tráfico en las redes de datos.
             div(titulo="802.1q")
-              p.mb-0 “Virtual Local Area Networks (VLAN)
+              p.mb-0 “#[em Virtual Local Area Networks] (VLAN)
                 br
-                |El protocolo IEEE 802.1Q, también conocido como dot1Q, fue un proyecto del grupo de trabajo 802 de la IEEE para desarrollar un mecanismo que permita a múltiples redes compartir de forma transparente el mismo medio físico, sin problemas de interferencia entre ellas (trunking). Es también el nombre actual del estándar establecido en este proyecto y se usa para definir el protocolo de encapsulamiento usado para implementar este mecanismo en redes Ethernet. Todos los dispositivos de interconexión que soportan VLAN deben seguir la norma IEEE 802.1Q que especifica con detalle el funcionamiento y administración de redes virtuales. *Shortest Path Bridging (SPB) Incorporado al IEEE 802.1Q-2014” (s/e)
+                |El protocolo IEEE 802.1Q, también conocido como dot1Q, fue un proyecto del grupo de trabajo 802 de la IEEE para desarrollar un mecanismo que permita a múltiples redes compartir de forma transparente el mismo medio físico, sin problemas de interferencia entre ellas (#[em trunking]). Es también el nombre actual del estándar establecido en este proyecto y se usa para definir el protocolo de encapsulamiento usado para implementar este mecanismo en redes #[em Ethernet]. Todos los dispositivos de interconexión que soportan VLAN deben seguir la norma IEEE 802.1Q que especifica con detalle el funcionamiento y administración de redes virtuales. *#[em Shortest Path Bridging] (SPB) Incorporado al IEEE 802.1Q-2014” (s/e)
             div(titulo="802.1x")
               p.mb-0 “Autenticación en redes LAN
                 br
                 |La IEEE 802.1X es una norma del IEEE para el control de acceso a red basada en puertos. Es parte del grupo de protocolos IEEE 802 (IEEE 802.1). Permite la autenticación de dispositivos conectados a un puerto LAN, estableciendo una conexión punto a punto o previniendo el acceso por ese puerto si la autenticación falla. Es utilizado en algunos puntos de acceso inalámbricos cerrados y se basa en el protocolo de autenticación extensible (EAP– RFC 2284). El RFC 2284 ha sido declarado obsoleto en favor del RFC 3748.” (s/f)
             div(titulo="802.1aq")
-              p.mb-0 “Shortest Path Bridging (SPB)
-                br
-                |Shortest Path Bridging (SPB), especificado en el estándar IEEE 802.1aq, es una tecnología de red que posibilita el Multipath routing.123
+              p.mb-0 “#[em Shortest Path Bridging] (SPB), especificado en el estándar IEEE 802.1aq, es una tecnología de red que posibilita el #[em Multipath routing].123
                 br
                 br
-                |SPB surgió como reemplazo de los antiguos protocolos spanning tree, que sirvieron para evitar caminos redundantes que pudiesen tener swtiching loop y evitar así tormentas de tramas. Mientras que SPB permite tener activas todas las rutas con caminos de igual coste, lo que conlleva una mayor escalabilidad a nivel 24 aportando una mayor velocidad de convergencia y mejorando la eficiencia gracias a un incremento del ancho de banda y permitiendo al tráfico un reparto de carga a través de todos los caminos de una topología en malla. Está diseñado para eliminar el error humano durante la configuración, preservando así la naturaleza plug-and-play que estableció Ethernet como protocolo por defecto de nivel 2.” (s/g)
+                |SPB surgió como reemplazo de los antiguos protocolos #[em spanning tree], que sirvieron para evitar caminos redundantes que pudiesen tener #[em swtiching loop] y evitar así tormentas de tramas. Mientras que SPB permite tener activas todas las rutas con caminos de igual coste, lo que conlleva una mayor escalabilidad a nivel 24 aportando una mayor velocidad de convergencia y mejorando la eficiencia gracias a un incremento del ancho de banda y permitiendo al tráfico un reparto de carga a través de todos los caminos de una topología en malla. Está diseñado para eliminar el error humano durante la configuración, preservando así la naturaleza #[em plug-and-play] que estableció #[em Ethernet] como protocolo por defecto de nivel 2.” (s/g)
             div(titulo="IEEE 802.2")
               p.mb-0 “Control de enlace lógico (LLC)	
                 br
-                |Control de enlaces lógicos. Define el protocolo de control de enlaces lógicos (LLC) del IEEE, el cual asegura que los datos sean transmitidos de forma confiable por medio del enlace de comunicación. La capa de Datos-Enlace en el protocolo OSI está subdividida en las subcapas de Control de Acceso a Medios (MAC) y de Control de Enlaces Lógicos (LLC). En puentes, estas dos capas sirven como un mecanismo de switcheo modular, como se muestra en la figura I-5. El protocolo LLC es derivado del protocolo de Alto nivel para Control de Datos-Enlaces (HDLC) y es similar en su operación. Nótese que el LLC provee las direcciones de Puntos de Acceso a Servicios (SAP's), mientras que la subcapa MAC provee la dirección física de red de un dispositivo. Las SAP's son específicamente las direcciones de una o más procesos de aplicaciones ejecutándose en una computadora o dispositivo de red.”  (s/c)
+                |Define el protocolo de control de enlaces lógicos (LLC) del IEEE, el cual asegura que los datos sean transmitidos de forma confiable por medio del enlace de comunicación. La capa de Datos-Enlace en el protocolo OSI está subdividida en las subcapas de Control de Acceso a Medios (MAC) y de Control de Enlaces Lógicos (LLC). En puentes, estas dos capas sirven como un mecanismo de #[em switcheo] modular. El protocolo LLC es derivado del protocolo de Alto nivel para Control de Datos-Enlaces (HDLC) y es similar en su operación. Nótese que el LLC provee las direcciones de Puntos de Acceso a Servicios (SAP's), mientras que la subcapa MAC provee la dirección física de red de un dispositivo. Las SAP's son específicamente las direcciones de una o más procesos de aplicaciones ejecutándose en una computadora o dispositivo de red.”  (s/c)
             div(titulo="IEEE 802.3")
               p.mb-0  “CSMA / CD (ETHERNET)
                 br
                 |Redes CSMA/CD. El estándar 802.3 del IEEE (ISO 8802-3), que define cómo opera el método de Acceso Múltiple con Detección de Colisiones (CSMA/CD) sobre varios medios. El estándar define la conexión de redes sobre cable coaxial, cable de par trenzado y medios de fibra óptica. La tasa de transmisión original es de 10 Mbits/seg, pero nuevas implementaciones transmiten arriba de los 100 Mbits/seg calidad de datos en cables de par trenzado.” (s/c)
             div(titulo="IEEE 802.3a")
-              p.mb-0 Ethernet delgada 10Base2.
+              p.mb-0 #[em Ethernet] delgada 10Base2.
             div(titulo="IEEE 802.3c")
-              p.mb-0 Especificaciones de Repetidor en Ethernet a 10 Mbps.
+              p.mb-0 Especificaciones de Repetidor en #[em Ethernet] a 10 Mbps.
     .row.justify-content-center.mb-5
       .col-lg-8.mb-3.col-8(data-aos="fade-right")
         .acordion-ajuste
           AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul-oscuro")
             div(titulo="IEEE 802.3i")
-              p.mb-0 Ethernet de par trenzado 10BaseT.
+              p.mb-0 #[em Ethernet] de par trenzado 10BaseT.
             div(titulo="IEEE 802.3j")
-              p.mb-0 Ethernet de fibra óptica 10BaseF.
+              p.mb-0 #[em Ethernet] de fibra óptica 10BaseF.
             div(titulo="IEEE 802.3u")
-              p.mb-0 Fast Ethernet 100BaseT.
+              p.mb-0 #[em Fast Ethernet] 100BaseT.
             div(titulo="IEEE 802.3z")
-              p.mb-0 Gigabit Ethernet parámetros para 1000 Mbps.
+              p.mb-0 #[em Gigabit Ethernet] parámetros para 1000 Mbps.
             div(titulo="IEEE 802.3ab")
-              p.mb-0 Gigabit Ethernet sobre 4 pares de cable UTP Cat5e o superior.	
+              p.mb-0 #[em Gigabit Ethernet] sobre 4 pares de cable UTP Cat5e o superior.	
             div(titulo="IEEE 802.3ad")
               p.mb-0 LACP o Agregación de enlaces.
             div(titulo="IEEE 802.3ae")
-              p.mb-0 10 Gigabit Ethernet.
+              p.mb-0 10 #[em Gigabit Ethernet.]
             div(titulo="IEEE 802.4")
-              p.mb-0 “Redes token bus. El estándar token bus define esquemas de red de anchos de banda grandes, usados en la industria de manufactura. Se deriva del Protocolo de Automatización de Manufactura (MAP). La red implementa el método token-passing para una transmisión bus. Un token es pasado de una estación a la siguiente en la red y la estación puede transmitir manteniendo el token. Los tokens son pasados en orden lógico basado en la dirección del nodo, pero este orden puede no relacionar la posición física del nodo como se hace en una red token ring. El estándar no es ampliamente implementado en ambientes LAN.” (s/c)
+              p.mb-0 “Redes #[em token] bus. El estándar #[em token] bus define esquemas de red de anchos de banda grandes, usados en la industria de manufactura. Se deriva del Protocolo de Automatización de Manufactura (MAP). La red implementa el método #[em token-passing] para una transmisión bus. Un token es pasado de una estación a la siguiente en la red y la estación puede transmitir manteniendo el #[em token]. Los #[em tokens] son pasados en orden lógico basado en la dirección del nodo, pero este orden puede no relacionar la posición física del nodo como se hace en una red #[em token ring]. El estándar no es ampliamente implementado en ambientes LAN.” (s/c)
             div(titulo="IEEE 802.5")
               p.mb-0 “#[em Token ring LAN] (topología en anillo)
                 br
-                |Redes token ring. También llamado ANSI 802.1-1985, define los protocolos de acceso, cableado e interfaz para la LAN token ring. IBM hizo popular este estándar. Usa un método de acceso de paso de tokens y está físicamente conectada en topología estrella, pero lógicamente forma un anillo. Los nodos son conectados a una unidad de acceso central (concentrador) que repite las señales de una estación a la siguiente. Las unidades de acceso son conectadas para expandir la red, que amplía el anillo lógico. La Interfaz de Datos en Fibra Distribuida (FDDI) fue basada en el protocolo token ring 802.5, pero fue desarrollado por el Comité de Acreditación de Estándares (ASC) X3T9. Es compatible con la capa 802.2 de Control de Enlaces Lógicos y por consiguiente otros estándares de red 802.” (s/c)
+                |Redes #[em token ring]. También llamado ANSI 802.1-1985, define los protocolos de acceso, cableado e interfaz para la LAN #[em token ring]. IBM hizo popular este estándar. Usa un método de acceso de paso de #[em tokens] y está físicamente conectada en topología estrella, pero lógicamente forma un anillo. Los nodos son conectados a una unidad de acceso central (concentrador) que repite las señales de una estación a la siguiente. Las unidades de acceso son conectadas para expandir la red, que amplía el anillo lógico. La Interfaz de Datos en Fibra Distribuida (FDDI) fue basada en el protocolo #[em token ring] 802.5, pero fue desarrollado por el Comité de Acreditación de Estándares (ASC) X3T9. Es compatible con la capa 802.2 de Control de Enlaces Lógicos y por consiguiente otros estándares de red 802.” (s/c)
             div(titulo="IEEE 802.6")
               p.mb-0 “Redes de Área Metropolitana (MAN) (ciudad) (fibra óptica)
                 br
-                |Redes de Área Metropolitana (MAN). Define un protocolo de alta velocidad donde las estaciones enlazadas comparten un bus dual de fibra óptica usando un método de acceso llamado Bus Dual de Cola Distribuida (DQDB). El bus dual provee tolerancia de fallos para mantener las conexiones si el bus se rompe. El estándar MAN está diseñado para proveer servicios de datos, voz y vídeo en un área metropolitana de aproximadamente 50 kilómetros a tasas de 1.5, 45, y 155 Mbits/seg. DQDB es el protocolo de acceso subyacente para el SMDS (Servicio de Datos de Multimegabits Switcheados), en el que muchos de los portadores públicos son ofrecidos como una manera de construir redes privadas en áreas metropolitanas. El DQDB es una red repetidora que switchea celdas de longitud fija de 53 bytes; por consiguiente, es compatible con el Ancho de Banda ISDN y el Modo de Transferencia Asíncrona (ATM). Las celdas son switcheables en la capa de Control de Enlaces Lógicos.” (s/c)
+                |Define un protocolo de alta velocidad donde las estaciones enlazadas comparten un #[em bus dual] de fibra óptica usando un método de acceso llamado #[em Bus Dual] de Cola Distribuida (DQDB). El #[em bus dual] provee tolerancia de fallos para mantener las conexiones si el bus se rompe. El estándar MAN está diseñado para proveer servicios de datos, voz y vídeo en un área metropolitana de aproximadamente 50 kilómetros a tasas de 1.5, 45, y 155 Mbits/seg. DQDB es el protocolo de acceso subyacente para el SMDS (Servicio de Datos de Multimegabits Switcheados), en el que muchos de los portadores públicos son ofrecidos como una manera de construir redes privadas en áreas metropolitanas. El DQDB es una red repetidora que switchea celdas de longitud fija de 53 bytes; por consiguiente, es compatible con el Ancho de Banda ISDN y el Modo de Transferencia Asíncrona (ATM). Las celdas son switcheables en la capa de Control de Enlaces Lógicos.” (s/c)
       .col-lg-4.mb-lg-0(data-aos="fade-left"): img(src='@/assets/curso/temas/tema1/5.svg', alt='')
     .row.justify-content-center.mb-5
       .col-lg-4.mb-lg-0.mb-3.col-8(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/3.svg', alt='')
@@ -133,7 +131,7 @@
             div(titulo="IEEE 802.9")
               p.mb-0 “Servicios Integrados de red de Área Local (redes con voz y datos integrados)
                 br
-                |Redes Integradas de Datos y Voz. El grupo de trabajo del IEEE 802.9 trabaja en la integración de tráfico de voz, datos y vídeo para las LAN 802 y Redes Digitales de Servicios Integrados (ISDN's). Los nodos definidos en la especificación incluyen teléfonos, computadoras y codificadores/decodificadores de vídeo (codecs). La especificación ha sido llamada Datos y Voz Integrados (IVD). El servicio provee un flujo multiplexado que puede llevar canales de información de datos y voz conectando dos estaciones sobre un cable de cobre en par trenzado. Varios tipos de diferentes de canales son definidos, incluyendo full duplex de 64 Kbits/seg sin switcheo, circuito switcheado o canales de paquete switcheado.” (s/c)
+                |Redes Integradas de Datos y Voz. El grupo de trabajo del IEEE 802.9 trabaja en la integración de tráfico de voz, datos y vídeo para las LAN 802 y Redes Digitales de Servicios Integrados (ISDN's). Los nodos definidos en la especificación incluyen teléfonos, computadoras y codificadores/decodificadores de vídeo (#[em codecs]). La especificación ha sido llamada Datos y Voz Integrados (IVD). El servicio provee un flujo multiplexado que puede llevar canales de información de datos y voz conectando dos estaciones sobre un cable de cobre en par trenzado. Varios tipos de diferentes de canales son definidos, incluyendo full duplex de 64 Kbits/seg sin switcheo, circuito switcheado o canales de paquete switcheado.” (s/c)
             div(titulo="IEEE 802.10")
               p.mb-0 “Seguridad de red
                 br
@@ -141,11 +139,11 @@
             div(titulo="IEEE 802.11")
               p.mb-0  “Redes inalámbricas WLAN. (Wi-Fi)
                 br
-                |Redes inalámbricas. Este comité está definiendo estándares para redes inalámbricas. Está trabajando en la estandarización de medios como el radio de espectro de expansión, radio de banda angosta, infrarrojo, y transmisión sobre líneas de energía. Dos enfoques para redes inalámbricas se han planeado. En el enfoque distribuido, cada estación de trabajo controla su acceso a la red. En el enfoque de punto de coordinación, un hub central enlazado a una red alámbrica controla la transmisión de estaciones de trabajo inalámbricas.” (s/c)
+                |Este comité está definiendo estándares para redes inalámbricas. Está trabajando en la estandarización de medios como el radio de espectro de expansión, radio de banda angosta, infrarrojo, y transmisión sobre líneas de energía. Dos enfoques para redes inalámbricas se han planeado. En el enfoque distribuido, cada estación de trabajo controla su acceso a la red. En el enfoque de punto de coordinación, un #[em hub] central enlazado a una red alámbrica controla la transmisión de estaciones de trabajo inalámbricas.” (s/c)
             div(titulo="IEEE 802.12")
               p.mb-0  “Acceso de Prioridad por demanda 100 Base VG-Any Lan
                 br
-                |Prioridad de Demanda (100VG-ANYLAN). Este comité está definiendo el estándar Ethernet de 100 Mbits/seg. Con el método de acceso por Prioridad de Demanda propuesto por Hewlett Packard y otros vendedores. El cable especificado es un par trenzado de 4 alambres de cobre y el método de acceso por Prioridad de Demanda usa un hub central para controlar el acceso al cable. Hay prioridades disponibles para soportar envío en tiempo real de información multimedia.” (s/c)
+                |Prioridad de Demanda (100VG-ANYLAN). Este comité está definiendo el estándar #[em Ethernet] de 100 Mbits/seg. Con el método de acceso por Prioridad de Demanda propuesto por Hewlett Packard y otros vendedores. El cable especificado es un par trenzado de 4 alambres de cobre y el método de acceso por Prioridad de Demanda usa un #[em hub] central para controlar el acceso al cable. Hay prioridades disponibles para soportar envío en tiempo real de información multimedia.” (s/c)
             div(titulo="IEEE 802.13")
               p.mb-0  Se ha evitado su uso por superstición 2.
             div(titulo="IEEE 802.14")
@@ -153,9 +151,9 @@
                 br
                 |Fue un grupo de trabajo creado por el comité IEEE 802 a mediados de los años 90 para desarrollar un estándar basado en ATM. Sin embargo, el grupo de trabajo fue disuelto cuando múltiples operadoras multisistema (MSOs) empezó a apoyar por aquel entonces la incipiente creación de la especificación DOCSIS 1.0, que utiliza por lo general un mejor servicio y estaba basada en IP (con puntos de código de extensión para apoyar ATM para QoS en el futuro).” (s/h)
             div(titulo="IEEE 802.15")
-              p.mb-0  “WPAN (Bluetooth)
+              p.mb-0  “WPAN (#[em Bluetooth])
                 br
-                |Es un grupo de trabajo dentro de IEEE 802 especializado en redes inalámbricas de área personal (wireless personal area networks, WPAN). Se divide en 10 áreas de trabajo, aunque no todas están activas actualmente. El número de grupos de trabajo varía dependiendo del número de proyectos activos. La lista completa de proyectos activos está disponible en la web de IEEE 802.15.” (s/i)
+                |Es un grupo de trabajo dentro de IEEE 802 especializado en redes inalámbricas de área personal (#[em wireless personal area networks], WPAN). Se divide en 10 áreas de trabajo, aunque no todas están activas actualmente. El número de grupos de trabajo varía dependiendo del número de proyectos activos. La lista completa de proyectos activos está disponible en la #[em web] de IEEE 802.15.” (s/i)
             div(titulo="IEEE 802.16")
               p.mb-0  “Redes de acceso metropolitanas sin hilos de banda ancha (WIMAX)	
                 br
@@ -165,9 +163,9 @@
         .acordion-ajuste
           AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul-oscuro")
             div(titulo="IEEE 802.17")
-              p.mb-0 “Anillo de paquete elástico script
+              p.mb-0 “Anillo de paquete elástico #[em script]
                 br
-                |#[em Resilient Packet Ring] (RPR), también conocido como IEEE 802.17, es un estándar diseñado para el transporte óptimo de datos en redes de anillo de fibra óptica. Está diseñada para proporcionar la resistencia encontrada en redes SONET/SDH (50 ms protección) pero, en lugar de establecer conexiones de circuitos orientados, proporciona una transmisión basada en paquetes, para incrementar la eficiencia de Ethernet y servicios IP.” (s/k)
+                |#[em Resilient Packet Ring] (RPR), también conocido como IEEE 802.17, es un estándar diseñado para el transporte óptimo de datos en redes de anillo de fibra óptica. Está diseñada para proporcionar la resistencia encontrada en redes SONET/SDH (50 ms protección) pero, en lugar de establecer conexiones de circuitos orientados, proporciona una transmisión basada en paquetes, para incrementar la eficiencia de #[em Ethernet] y servicios IP.” (s/k)
             div(titulo="IEEE 802.18")
               p.mb-0 Grupo de Asesoría Técnica sobre Normativas de Radio.
             div(titulo="IEEE 802.19")
