@@ -119,22 +119,21 @@ export default {
       link:
         'https://repository.unab.edu.co/bitstream/handle/20.500.12749/1284/2014_Tesis_Meneses_Chacon_Eduard_Andrey.pdf?sequence=1',
     },
-    // {
-    //   tema: 'Cableado estructurado, un estado del arte      ',
-    //   referencia:
-    //     'Osorio, J. M. V. (diciembre de 2016). Cableado Estructurado: Un Estado del Arte. 5. https://doi.org/10.19136/jobs.a5n2.916      ',
-    //   tipo: 'Artículo',
-    //   link:
-    //     'file:///Users/mariaantonialopezrestrepo/Downloads/916-Texto%20del%20art%C3%ADculo-3289-1-10-20150601.pdf      ',
-    // },
+    {
+      tema:
+        'Estudio de factibilidad para la implementación de una red de datos mediante cableado estructurado certificado',
+      referencia:
+        'CEVALLOS FLORES, S. A. (2022). <em>“ESTUDIO DE FACTIBILIDAD PARA LA IMPLEMENTACIÓN DE UNA RED DE DATOS MEDIANTE CABLEADO ESTRUCTURADO CERTIFICADO PARA MEJORAR LA LATENCIA DE ACCESO DE INTERNET EN LA SALA DE DOCENTES DE LA CARRERA DE TECNOLOGÍAS DE LA INFORMACIÓN </em>(Bachelors thesis, Jijpijapa. UNESUM).',
+      tipo: 'Artículo',
+      link: 'http://repositorio.unesum.edu.ec/handle/53000/3543',
+    },
     {
       tema:
         'El abc de la certificación del cableado estructurado para redes de datos',
       referencia:
-        'Normas sobre cableado Sanchez, P. (2020, noviembre 15). <em>EL ABC DE LA CERTIFICACIÓN DEL CABLEADO ESTRUCTURADO PARA LAS REDES DE DATOS.</em>',
+        'Sánchez, Pablo (2020). <em> El ABC de la certificación del cableado Estructurado para las redes de datos.</em>  Universidad Nacional de Ingeniería.',
       tipo: 'Video      ',
-      link:
-        'https://www.youtube.com/watch?v=zzBLXQD9UrU&ab_channel=CAPACITAINICTEL-UNI',
+      link: 'https://www.youtube.com/watch?v=zzBLXQD9UrU',
     },
     {
       tema: 'Aprendiendo por proyectos en escenarios pluritecnológicos',
